@@ -16,6 +16,6 @@ phases:
       - npx ng build --configuration production
 
 artifacts:
-  base-directory: dist
   files:
-    - '**/*'
+    - appspec.yml
+    - dist/**/*
